@@ -7,6 +7,10 @@ root.geometry("400x300")
 root.resizable(width=0 , height=0)
 #endregion
 
+int(input ("enter a name :"))
+
+
+
 def click_btn():
     messagebox.showinfo("information , information")
 
