@@ -1,6 +1,9 @@
 from os import system
 from cls_mastermind import mastermind
 
+'''
+test
+'''
 game = mastermind(int(input("level(4 - 6) = ")))
 while game.status :
     guess_num = int(input("guess number ="))
